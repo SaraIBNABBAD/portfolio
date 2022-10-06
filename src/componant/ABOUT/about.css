@@ -1,0 +1,46 @@
+
+.flx{
+    display: flex;
+    gap: 20px;
+    justify-content:space-around;
+    margin: auto;
+    margin: 20px auto;
+    height: 50vh;
+    
+}
+.about{
+    margin: 80px;
+}
+
+.img{
+    width: 27%;
+    margin-left: 5px;
+    box-shadow: 5px 2px 7px 5px black;
+}
+.text{
+    width: 45%;
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #25334c;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 1px 1px 20px #03e9f4;
+}
+.text p{
+    padding: 10px;
+}
+.propos{
+    text-align: center;
+    color: #03e9f4;
+}
+.tiitre{
+    color: #03e9f4;
+    text-align: center;
+    font-size: 3em;
+}
+.suis{
+    color:white;
+    text-align: center;
+    font-size: 1.3em;
+}

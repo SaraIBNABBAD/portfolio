@@ -1,0 +1,74 @@
+ .tit{
+  color: #03e9f4;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+ }
+ .contact{
+  width: 50%;
+  padding: 30px;
+  height: 70vh;
+  margin-top: 100px;
+  background-color: rgba(244, 247, 249, 0.077);
+  border-radius: 10px;
+  border-color: transparent;
+  justify-content: center;
+  align-items: center;
+ }
+ .contact form input{
+  width: 47.7%;
+ } 
+ .contact form input,.contact form textarea{
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #03e9f4;
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+ }
+
+ .contact form #sujet,.contact form #msg{
+  display: block;
+  width: 98%;
+ }
+ .envoi{
+  width: 50%;
+  background-color: #03e9f4;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 4px;
+ }
+ .envoi:hover{
+  border-radius: 5px;
+    box-shadow: 0 0 0px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 10px #03e9f4,
+                0 0 25px #03e9f4;
+ }
+ .social{
+  margin-bottom:30px ;
+  margin-left: -220px;
+ }
+ .social a{
+  display:block;
+  font-size: 2em;
+  margin-top: 5px;
+  color: #03e9f4;
+}
+.flxe{
+  display: flex;
+  gap:5px;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.footer{
+  margin: 80px;
+}
