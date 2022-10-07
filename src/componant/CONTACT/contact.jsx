@@ -6,19 +6,33 @@ import "./contact.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
   useEffect(()=>{
     Aos.init({duration:2000});
   });
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    };
     return (
       <div className="footer" id="call">
 <h1 className="tit" data-aos="fade-zoom-in">Me contacter</h1>
 <div className="flxe" data-aos="fade-up">
 
       <div className="contact" >
-        <form >
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" placeholder="Nom" required/>
           <input type="email" placeholder="Email" required/>
           <input type="text" placeholder="sujet" id="sujet"/>
@@ -39,4 +53,4 @@ const Contact = () => {
     );
   }
 
-export default Contact
+export default Contact;
