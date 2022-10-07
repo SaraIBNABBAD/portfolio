@@ -12,9 +12,11 @@
     align-items:flex-start;
 
 }
-ul{
+
+ul {
   padding: 15px;
 }
+
 .nav h1 span{
   color: #5ddcff;
 }
@@ -86,18 +88,20 @@ ul li a:hover{
       display: flex;
       flex-direction: column;
       top: 73px;
+      right: 0;
       justify-content: center;
-      width:10%;
+      width:500px;
       background-color: #162051bc;
     }
   
-    ul li .a:hover{
+    ul li .a:active {
       background-color: rgba(240, 248, 255, 0.441);
       border-radius: 5px 5px 0 0;
       border-bottom: 3px solid #5ddcff;
-      color: black;
+      
       padding: 2px;
   }
+
   ul li .a {
     text-decoration: none;
      padding: 0px 5px;

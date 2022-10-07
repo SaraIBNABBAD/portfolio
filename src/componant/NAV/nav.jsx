@@ -20,7 +20,6 @@ class Nav extends Component {
         <ul className={activeMenu ? "active" : ""}>
           <li>
             <a href="#ab" className="a"><FontAwesomeIcon icon={faUser} className="symbol"/>
-              {" "}
               &nbsp; A propos de moi
             </a>
           </li>
