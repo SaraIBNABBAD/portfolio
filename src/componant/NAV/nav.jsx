@@ -12,28 +12,31 @@ class Nav extends Component {
   render() {
     let { activeMenu } = this.state;
     return (
-      <>
-      <h3 className="text-white m-3 menuTitre">Menu</h3>
+      <div className="nav">
+        <div>
+        <h1 className="port" data-aos="fade-zoom-in"> Portfo<span>lio</span></h1>
+        </div>
+      <div>
         <ul className={activeMenu ? "active" : ""}>
           <li>
-            <a href="#" target="_blank" className="a"><FontAwesomeIcon icon={faUser} className="symbol"/>
+            <a href="#ab" className="a"><FontAwesomeIcon icon={faUser} className="symbol"/>
               {" "}
               &nbsp; A propos de moi
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" className="a"><FontAwesomeIcon icon={faBars} className="symbol"/>
+            <a href="#comp"  className="a"><FontAwesomeIcon icon={faBars} className="symbol"/>
             &nbsp; Comptétence
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" className="a"><FontAwesomeIcon icon={faFolderOpen} className="symbol"/>
+            <a href="#pro"  className="a"><FontAwesomeIcon icon={faFolderOpen} className="symbol"/>
             &nbsp;
               Portfolio
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" className="a"><FontAwesomeIcon icon={faPhone} className="symbol"/>
+            <a href="#call"  className="a"><FontAwesomeIcon icon={faPhone} className="symbol"/>
             &nbsp;Contact
             </a>
           </li>
@@ -44,7 +47,9 @@ class Nav extends Component {
           <FontAwesomeIcon icon={faBars} />
         </button>
         
-      </>
+      </div>
+      </div>
+      
     );
   }
 }

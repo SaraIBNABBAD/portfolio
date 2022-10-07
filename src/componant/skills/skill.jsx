@@ -1,23 +1,22 @@
 import { Component } from "react";
-import './competence.css';
+import './skill.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCode} from '@fortawesome/free-solid-svg-icons';
 import { faReact,faHtml5,faCss3Alt,faSquareJs} from '@fortawesome/free-brands-svg-icons'
-class Competence extends Component {
-     
-    render() { 
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+const Competence = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  });
+    
         return (
+          <div id="comp">
+          <h1 className="comp-titre" data-aos="fade-zoom-in">Compétences</h1>
           <div className="bodyy">
-            <h1 className="comp-titre">Compétences</h1>
-            <div className="corp">
-                <FontAwesomeIcon icon={faHtml5} className="iconn"/>
-                <FontAwesomeIcon icon={faCss3Alt} className="iconn"/>
-                <FontAwesomeIcon icon={faSquareJs} className="iconn"/>
-                <FontAwesomeIcon icon={faReact} className="iconn"/>
-                <FontAwesomeIcon icon={faCode} className="iconn"/>
-                
-            </div>
-             <div className="contnr">
+          <div className="contnr" data-aos="flip-left">
              <p>HTML</p>
             <div className="skills">
               <div className="skill html">90%</div>
@@ -35,20 +34,29 @@ class Competence extends Component {
 
             <p>React JS</p>
             <div className="skills">
-              <div className="skill react">25%</div>
+              <div className="skill react">10%</div>
             </div>
           
              </div>
             
+            <div className="corp" data-aos="flip-right">
+                <FontAwesomeIcon icon={faHtml5} className="iconn"/>
+                <FontAwesomeIcon icon={faCss3Alt} className="iconn"/>
+                <FontAwesomeIcon icon={faSquareJs} className="iconn"/>
+                <FontAwesomeIcon icon={faReact} className="iconn"/>
+                <FontAwesomeIcon icon={faCode} className="iconn"/>
+            </div>
+             
           
 
           
-          </div> 
+          </div></div>
+         
             
             
             
         );
     }
-}
+
  
 export default Competence;

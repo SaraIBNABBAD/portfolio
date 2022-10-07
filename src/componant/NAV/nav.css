@@ -1,23 +1,34 @@
-ul{
-    padding: 20px;
+.nav{
+    padding: 5px;
     width: 100%;
-    background-color: transparent;
+    background-color: #141e30f4;
     text-align: center;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
 
 }
+ul{
+  padding: 15px;
+}
+.nav h1 span{
+  color: #5ddcff;
+}
+
 ul li {
     display: inline;
     list-style: none;
     color: white;
-    padding: 20px;
     font-size: 1.2em;
 }
 
 ul li .a {
     text-decoration: none;
-  
-    padding: 10px;
+     padding: 0px 10px;
   }
 ul li a:hover{
     background-color: rgba(240, 248, 255, 0.441);
@@ -44,45 +55,48 @@ ul li a:hover{
 .menu,.menuTitre{
     display: none;
 }
+.port{
+  color: white;
+}
 @media screen and (max-width: 600px) {
-    .menu,.menuTitre {
-      display: inline-block;
+  .menu,.menuTitre {
+    display: inline-block;
+  }
+  .menu{
+      float: right;
+  }
+  ul li {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2px;
     }
-    .menu{
-        float: right;
+  
+    .menuTitre {
+      text-align: left;
     }
-    ul li {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 10px;
-      }
-    
-      .menuTitre {
-        text-align: left;
-      }
-    
-     ul {
-        display: none;
-      }
-    
-      .active {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        top: 73px;
-        justify-content: center;
-        width: calc(100% - 20px);
-        background-color: #162051bc;
-        animation: showMenu 0.5s ease-in forwards;
-      }
-    
-      ul li .a:hover{
-        background-color: rgba(240, 248, 255, 0.441);
-        border-radius: 5px 5px 0 0;
-        border-bottom: 3px solid #03e9f4;
-        color: black;
-        padding: 10px;
+  
+   ul {
+      display: none;
     }
+  
+    .active {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 73px;
+      justify-content: center;
+      width: calc(100% - 20px);
+      background-color: #162051bc;
+      animation: showMenu 0.5s ease-in forwards;
+    }
+  
+    ul li .a:hover{
+      background-color: rgba(240, 248, 255, 0.441);
+      border-radius: 5px 5px 0 0;
+      border-bottom: 3px solid #5ddcff;
+      color: black;
+      padding: 10px;
+  }
 }

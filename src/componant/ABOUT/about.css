@@ -1,8 +1,8 @@
 
 .flx{
     display: flex;
-    gap: 20px;
-    justify-content:space-around;
+    gap: 400px;
+    justify-content:center;
     margin: auto;
     margin: 20px auto;
     height: 50vh;
@@ -15,27 +15,28 @@
 .img{
     width: 27%;
     margin-left: 5px;
-    box-shadow: 5px 2px 7px 5px black;
 }
 .text{
-    width: 45%;
+    width: 50%;
     color: white;
-    padding: 50px;
+    padding: 40px;
     box-sizing: border-box;
     background-color: #25334c;
     border-radius: 20px;
     border-color: transparent;
-    box-shadow: 1px 1px 20px #03e9f4;
+    box-shadow: 1px 1px 20px #5ddcff;
+    overflow: hidden;
+    font-size: 1.1em; 
 }
 .text p{
     padding: 10px;
 }
 .propos{
     text-align: center;
-    color: #03e9f4;
+    color: #5ddcff;
 }
 .tiitre{
-    color: #03e9f4;
+    color: #5ddcff;
     text-align: center;
     font-size: 3em;
 }
@@ -43,4 +44,18 @@
     color:white;
     text-align: center;
     font-size: 1.3em;
+}
+
+@media screen and (max-width: 600px){
+    .text{
+        width: 100%;
+        color: white;
+        padding:20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 40vh;
+    }
+    .about{
+        margin:20px;
+    }
 }

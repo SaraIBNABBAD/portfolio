@@ -5,7 +5,8 @@ import anime from "animejs/lib/anime.es.js";
 import About from "./ABOUT/about";
 import Contact from "./CONTACT/contact";
 import Projets from "./projet/projets";
-import Competence from "./competence/competence";
+import Competence from "./skills/skill";
+import fond from "../img/fondd.jpg";
 
 class Portfolio extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class Portfolio extends Component {
     return (
       <>
       
-          <header className="head" >
+          <header className="head" id="fist" >
             <div className="info">
               <h3 className="nom">Sara IBN ABBAD</h3>
               <TypeAnimation
@@ -66,9 +67,6 @@ class Portfolio extends Component {
             <Competence/>
             <Projets/>
           </main>
-       {/* <footer>
-       <Contact/>
-       </footer> */}
       </>
     );
   }

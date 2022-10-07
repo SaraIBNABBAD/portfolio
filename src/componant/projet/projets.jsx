@@ -4,11 +4,12 @@ import squade from "../../img/squade.PNG";
 import green from "../../img/green.PNG";
 import list from "../../img/lise.PNG";
 import devin from "../../img/devinette.PNG";
+
 class Projets extends Component {
-  render() {
+  render(){
     return (
-      <>
-        <h1 className="project m-5">Mes Projets</h1>
+      <div id="pro">
+        <h1 className="project" data-aos="fade-zoom-in">Mes Projets</h1>
       
           <div className="flex">
             <Projet
@@ -35,7 +36,7 @@ class Projets extends Component {
           </div>
           <button className="show"><a href="https://github.com/SaraIBNABBAD?tab=repositories" target="_blank" rel="noopener noreferrer">voir plus</a></button>
 
-      </>
+      </div>
     );
   }
 }

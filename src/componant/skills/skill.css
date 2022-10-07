@@ -1,0 +1,87 @@
+.corp{
+    height: 30vh;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    width: 50%;
+    vertical-align: top;
+
+}
+.bodyy{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.comp-titre{
+    text-align: center;
+    color: #5ddcff;
+    font-size: 3em;
+}
+.iconn{
+    font-size: 5em;
+    margin: 50px;
+}
+.iconn:hover{
+  transform: translateY(6px);
+}
+
+/* SKILL BAR */
+.contnr{
+  width: 35%;
+
+}
+  .skills{
+      width: 100%;
+      background: rgba(243, 231, 231, 0.287);
+    }
+    .skill{
+      color: white;
+      padding: 3px;
+      text-align: right;
+    }
+    .contnr p{
+      color: white ;
+      font-size: 1em;
+    }
+    .html{
+      background-color: #5ddcff;
+      width: 90%;
+    }
+    .css{
+      background-color: #5ddcff;
+      width: 80%;
+    }
+    .js{
+      background-color: #5ddcff;
+      width: 30%;
+    }
+    .react{
+      background-color: #5ddcff;
+      width: 10%;
+    }
+    @media screen and (max-width: 600px){
+      .iconn{
+        font-size: 5em;
+        margin: 20px;
+    }
+    .bodyy{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: space-around;
+  }
+  .contnr{
+    width: 90%;
+    margin: auto;
+  
+  }
+  .corp{
+    height: 40vh;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+
+}
+ }
