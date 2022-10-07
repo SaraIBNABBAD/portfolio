@@ -46,9 +46,7 @@ const Contact = () => {
         <a href="https://www.linkedin.com/in/sara-ibnabbad-272b9317b" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
         <a href="https://github.com/SaraIBNABBAD" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
       </div>
-      <div>
-        {/* <Chat/> */}
-      </div>
+      
       </div>
       </div>
     );
