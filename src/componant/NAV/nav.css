@@ -68,7 +68,7 @@ ul li a:hover{
   ul li {
       position: relative;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       padding: 0 2px;
     }
@@ -87,9 +87,8 @@ ul li a:hover{
       flex-direction: column;
       top: 73px;
       justify-content: center;
-      width: calc(100% - 20px);
+      width:10%;
       background-color: #162051bc;
-      animation: showMenu 0.5s ease-in forwards;
     }
   
     ul li .a:hover{
@@ -97,6 +96,12 @@ ul li a:hover{
       border-radius: 5px 5px 0 0;
       border-bottom: 3px solid #5ddcff;
       color: black;
-      padding: 10px;
+      padding: 2px;
+  }
+  ul li .a {
+    text-decoration: none;
+     padding: 0px 5px;
+     margin: 10px;
+
   }
 }

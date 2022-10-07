@@ -13,9 +13,9 @@ class Nav extends Component {
     let { activeMenu } = this.state;
     return (
       <div className="nav">
-        <div>
+        
         <h1 className="port" data-aos="fade-zoom-in"> Portfo<span>lio</span></h1>
-        </div>
+       
       <div>
         <ul className={activeMenu ? "active" : ""}>
           <li>

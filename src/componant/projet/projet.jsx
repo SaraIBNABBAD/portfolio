@@ -1,8 +1,9 @@
 import { Component } from "react";
-import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 import "./projetss.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
+import {faGithub } from '@fortawesome/free-brands-svg-icons';
 class Projet extends Component {
   render() {
     return (
@@ -12,10 +13,13 @@ class Projet extends Component {
           <img src={this.props.image} alt="img" className="imgMt" />
           </div>
           <div>
-            <a href={this.props.lien} target="_blank" className="derig">{this.props.titre}</a>
-            <p className="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, mollitia.</p>
+            <h4 className="text-white">{this.props.titre}</h4>
+            <p className="desc">{this.props.description}</p>
           </div>
-         
+         <div className="lien">
+          <a href={this.props.lien} target="_blank" className="liena"><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+          <a href={this.props.lienG} target="_blank" className="lienb"><FontAwesomeIcon icon={faGithub}/></a>
+         </div>
         </div>
       </>
     );

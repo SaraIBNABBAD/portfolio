@@ -2,7 +2,7 @@ import { Component } from "react";
 import './skill.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCode} from '@fortawesome/free-solid-svg-icons';
-import { faReact,faHtml5,faCss3Alt,faSquareJs} from '@fortawesome/free-brands-svg-icons'
+import { faReact,faHtml5,faCss3Alt,faSquareJs,faBootstrap} from '@fortawesome/free-brands-svg-icons'
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -27,6 +27,11 @@ const Competence = () => {
               <div className="skill css">80%</div>
             </div>
 
+            <p>Bootstrap</p>
+            <div className="skills">
+              <div className="skill boot">60%</div>
+            </div>
+
             <p>JavaScript</p>
             <div className="skills">
               <div className="skill js">30%</div>
@@ -42,6 +47,7 @@ const Competence = () => {
             <div className="corp" data-aos="flip-right">
                 <FontAwesomeIcon icon={faHtml5} className="iconn"/>
                 <FontAwesomeIcon icon={faCss3Alt} className="iconn"/>
+                <FontAwesomeIcon icon={faBootstrap} className="iconn"/>
                 <FontAwesomeIcon icon={faSquareJs} className="iconn"/>
                 <FontAwesomeIcon icon={faReact} className="iconn"/>
                 <FontAwesomeIcon icon={faCode} className="iconn"/>

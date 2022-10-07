@@ -6,7 +6,7 @@
     }
     
     :root {
-      --card-height: 55vh;
+      --card-height: 60vh;
       --card-width: calc(var(--card-height) / 1.5);
     }
   
@@ -101,6 +101,18 @@
       font-weight: bold;
       margin-top: 21rem;
     }
+    .lien{
+      
+      position: absolute;
+      bottom: 10px;
+    }
+    .liena{
+      margin: 10px;
+      
+    }
+    .lienb{
+      margin: 10px;
+    }
     .show{
   background-color: #5ddcff;
   color: white;
@@ -127,7 +139,7 @@
 }
 .desc{
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding: 0;
 }
  /* @keyframes card {

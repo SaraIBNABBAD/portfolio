@@ -6,7 +6,7 @@ import About from "./ABOUT/about";
 import Contact from "./CONTACT/contact";
 import Projets from "./projet/projets";
 import Competence from "./skills/skill";
-import fond from "../img/fondd.jpg";
+import cv from "./saracv.pdf";
 
 class Portfolio extends Component {
   constructor(props) {
@@ -53,7 +53,11 @@ class Portfolio extends Component {
           />
               <p></p>
               <p></p>
+              <div className="flxbtn">
               <button className="cv"><a href="https://saraibnabbad.github.io/CV/" target="_blank">Voir CV</a></button>
+              <button className="down"><a href={cv} download>Telecharger CV</a></button>
+              </div>
+              
             </div>
             
             {/* <button className="btn">
