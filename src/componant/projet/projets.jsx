@@ -9,7 +9,7 @@ class Projets extends Component {
   render(){
     return (
       <div id="pro">
-        <h1 className="project" data-aos="fade-zoom-in">Mes Projets</h1>
+        <h1 className="project" data-aos="fade-zoom-in">Projets</h1>
       
           <div className="flex">
             <Projet

@@ -102,7 +102,6 @@
       margin-top: 21rem;
     }
     .lien{
-      
       position: absolute;
       bottom: 10px;
     }
@@ -120,7 +119,7 @@
   outline: none;
   border: none;
   float: right;
-  margin-right: 10px;
+  margin-right: 40px;
   margin-top: 10px;
   font-size: 16px;
   text-transform: uppercase;
@@ -142,29 +141,11 @@
   font-size: 0.6em;
   padding: 0;
 }
- /* @keyframes card {
-  from {
-    top: 100px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-} */
-/*
-@keyframes btn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-} */
+
 
 @media screen and (max-width: 600px){
   .project{
-    /* margin: -80px 0 25px 0; */
+    font-size: 2.5em;
   }
 }
 

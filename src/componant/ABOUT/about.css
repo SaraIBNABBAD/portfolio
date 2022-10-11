@@ -26,7 +26,7 @@
     border-color: transparent;
     box-shadow: 1px 1px 20px #5ddcff;
     overflow: hidden;
-    font-size: 1.1em; 
+    font-size: 1.2em; 
 }
 .text p{
     padding: 10px;
@@ -50,12 +50,14 @@
     .text{
         width: 100%;
         color: white;
-        padding:20px;
+        padding:5px;
         box-sizing: border-box;
-        overflow: hidden;
-        height: 40vh;
+       
     }
     .about{
         margin:20px;
+    }
+    .tiitre{
+        font-size: 2.5em;
     }
 }

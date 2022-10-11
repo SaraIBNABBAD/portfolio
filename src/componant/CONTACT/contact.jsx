@@ -29,7 +29,7 @@ const Contact = () => {
     };
     return (
       <div className="footer" id="call">
-<h1 className="tit" data-aos="fade-zoom-in">Me contacter</h1>
+<h1 className="tit" data-aos="fade-zoom-in">contact</h1>
 <div className="flxe" data-aos="fade-up">
 
       <div className="contact" >

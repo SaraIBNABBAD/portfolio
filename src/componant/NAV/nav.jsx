@@ -19,28 +19,28 @@ class Nav extends Component {
       <div>
         <ul className={activeMenu ? "active" : ""}>
           <li>
-            <a href="#ab" className="a"><FontAwesomeIcon icon={faUser} className="symbol"/>
+            <a href="#ab" className="ahref"><FontAwesomeIcon icon={faUser} className="symbol"/>
               &nbsp; A propos de moi
             </a>
           </li>
           <li>
-            <a href="#comp"  className="a"><FontAwesomeIcon icon={faBars} className="symbol"/>
+            <a href="#comp"  className="ahref"><FontAwesomeIcon icon={faBars} className="symbol"/>
             &nbsp; Comptétence
             </a>
           </li>
           <li>
-            <a href="#pro"  className="a"><FontAwesomeIcon icon={faFolderOpen} className="symbol"/>
+            <a href="#pro"  className="ahref"><FontAwesomeIcon icon={faFolderOpen} className="symbol"/>
             &nbsp;
               Portfolio
             </a>
           </li>
           <li>
-            <a href="#call"  className="a"><FontAwesomeIcon icon={faPhone} className="symbol"/>
+            <a href="#call"  className="ahref"><FontAwesomeIcon icon={faPhone} className="symbol"/>
             &nbsp;Contact
             </a>
           </li>
         </ul>
-        <button className="menu" onClick={() => {
+        <button className="btn-menu" onClick={() => {
               this.setState({ activeMenu: !activeMenu });
             }}>
           <FontAwesomeIcon icon={faBars} />

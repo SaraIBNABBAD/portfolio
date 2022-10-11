@@ -34,7 +34,6 @@
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    margin-top: 40px;
     letter-spacing: 4px;
     outline: none;
     border: none;
@@ -50,21 +49,32 @@
                0 0 10px #5ddcff,
                0 0 25px #5ddcff;
   }
+  .down:hover{
+    background: #5ddcff;
+    color: #fff;
+    
+    box-shadow:0 0 0px #5ddcff,
+               0 0 5px #5ddcff,
+               0 0 10px #5ddcff,
+               0 0 25px #5ddcff;
+  }
   .cv , .down:active{
     transform: translateY(4px);
   }
   .flxbtn{
     display: flex;
-    flex-direction: column;
     gap: 10px;
-    align-items: flex-start;
     justify-content: flex-start;
   }
   @media screen and (max-width: 600px){
     .info{
- text-align: center;
-      
+    text-align: center;
+     font-size: 1.2em; 
     }
+    .nom{
+      color: white;
+       font-size: 2.3em;
+     }
   }
   
   

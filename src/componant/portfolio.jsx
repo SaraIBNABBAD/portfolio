@@ -55,7 +55,7 @@ class Portfolio extends Component {
               <p></p>
               <div className="flxbtn">
               <button className="cv"><a href="https://saraibnabbad.github.io/CV/" target="_blank">Voir CV</a></button>
-              <button className="down"><a href={cv} download>Telecharger CV</a></button>
+              <button className="down"><a href={cv} download>Telecharger</a></button>
               </div>
               
             </div>
