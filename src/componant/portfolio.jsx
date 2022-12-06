@@ -33,7 +33,7 @@ class Portfolio extends Component {
               <h3 className="nom">Sara IBN ABBAD</h3>
               <TypeAnimation
             sequence={[
-              "Technicienne Spécialsée en Développement Multimédia", 
+              "Developpeur Full Stack", 
               2000,
             ]}
             wrapper="p"
@@ -41,7 +41,7 @@ class Portfolio extends Component {
             repeat={Infinity}
             style={{ fontSize: "1.5em" }}
           />
-          <TypeAnimation
+          {/* <TypeAnimation
             sequence={[
               "Développeur Full stack junior", 
               2000, 
@@ -50,9 +50,9 @@ class Portfolio extends Component {
             cursor={true}
             repeat={Infinity}
             style={{ fontSize: "1.5em" }}
-          />
+          /> */}
               <p></p>
-              <p></p>
+              {/* <p></p> */}
               <div className="flxbtn">
               <button className="cv"><a href="https://saraibnabbad.github.io/CV/" target="_blank">Voir CV</a></button>
               <button className="down"><a href={cv} download>Telecharger</a></button>
