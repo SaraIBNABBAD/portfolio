@@ -25,7 +25,7 @@ class Nav extends Component {
           </li>
           <li>
             <a href="#comp"  className="ahref"><FontAwesomeIcon icon={faBars} className="symbol"/>
-            &nbsp; Comptétence
+            &nbsp; Compétence
             </a>
           </li>
           <li>

@@ -1,9 +1,9 @@
 import { Component } from "react";
 import './skill.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCode} from '@fortawesome/free-solid-svg-icons';
-import { faReact,faHtml5,faCss3Alt,faSquareJs,faBootstrap,faphp,falaravel} 
-from '@fortawesomefree-brands-svg-icons';
+import {faCode} from '@fortawesome/free-solid-svg-icons'
+ import { faReact,faHtml5,faCss3Alt,faSquareJs,faBootstrap,faPhp,faLaravel} 
+ from '@fortawesome/free-brands-svg-icons';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -25,12 +25,22 @@ const Competence = () => {
 
             <p>CSS</p>
             <div className="skills">
-              <div className="skill css">90%</div>
+              <div className="skill css">85%</div>
             </div>
 
             <p>Bootstrap</p>
             <div className="skills">
               <div className="skill boot">80%</div>
+            </div>
+
+            <p>PHP</p>
+            <div className="skills">
+              <div className="skill php">75%</div>
+            </div>
+
+            <p>Laravel</p>
+            <div className="skills">
+              <div className="skill php">75%</div>
             </div>
 
             <p>JavaScript</p>
@@ -42,28 +52,19 @@ const Competence = () => {
             <div className="skills">
               <div className="skill react">70%</div>
             </div>
-
-            <p>PHP</p>
-            <div className="skills">
-              <div className="skill react">75%</div>
             </div>
-
-            <p>Laravel</p>
-            <div className="skills">
-              <div className="skill react">75%</div>
-            </div>
-          
-             </div>
             
             <div className="corp" data-aos="flip-right">
+            
                 <FontAwesomeIcon icon={faHtml5} className="iconn"/>
                 <FontAwesomeIcon icon={faCss3Alt} className="iconn"/>
                 <FontAwesomeIcon icon={faBootstrap} className="iconn"/>
-                <FontAwesomeIcon icon={faSquareJs} className="iconn"/>
+                <FontAwesomeIcon icon={faPhp}  className="iconn"/>
+                <FontAwesomeIcon icon={faLaravel}  className="iconn"/> 
+                <FontAwesomeIcon icon={faSquareJs}className="iconn"/>
                 <FontAwesomeIcon icon={faReact} className="iconn"/>
                 <FontAwesomeIcon icon={faCode} className="iconn"/>
-                <FontAwesomeIcon icon={faphp}  className="icon"/>
-                <FontAwesomeIcon icon={falaravel} />
+                
             </div>
              
           

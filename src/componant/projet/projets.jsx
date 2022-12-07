@@ -1,7 +1,8 @@
 import { Component } from "react";
 import Projet from "./projet";
 import squade from "../../img/squade.PNG";
-import green from "../../img/green.PNG";
+// import green from "../../img/green.PNG";
+import calcul from "../../img/calc.JPG";
 import list from "../../img/lise.PNG";
 import devin from "../../img/devinette.PNG";
 
@@ -20,11 +21,11 @@ class Projets extends Component {
               description="Une maquette riche d'informations qui englobe beaucoup de propriété CSS  "
             />
             <Projet
-              image={green}
-              lien="https://saraibnabbad.github.io/greenoffice/"
-              lienG="https://github.com/SaraIBNABBAD/greenoffice"
-              titre="Green Office"
-              description="La maquette Green Office parmis les premiers maquettes quand on a réalisé avec HTML et CSS pour maîtriser la propriété FLOAT "
+              image={calcul}
+              lien="https://saraibnabbad.github.io/Calculatrice/"
+              lienG="https://github.com/SaraIBNABBAD/Calculatrice"
+              titre="Calculatrice"
+              description="La Calculatrice parmis les prpjets quand on a réalisé avec HTML , CSS et JavaScriptv ."
               
             />
             
